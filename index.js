@@ -57,7 +57,7 @@ async function seedOperation () {
   }
   // await dbSeed(data, 'bookI', 'many', { title: 1 }) // Single field Index
   // await dbSeed(data, 'bookI, 'many', { title: 'text' }) // Text field Index
-  await dbSeed(data, 'book', 'many')
+  await dbSeed(data, 'book', 'many') // Seeding without Index
 }
 
 async function main () {
